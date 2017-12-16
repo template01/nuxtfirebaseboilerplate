@@ -1,5 +1,7 @@
-
 import firebase from 'firebase'
+import 'firebase/auth'
+import 'firebase/database'
+import 'firebase/storage'
 
 var config = {
   apiKey: "AIzaSyBcOvFQskr9qwRHf5eu6y7UOU21u1taZXg",
