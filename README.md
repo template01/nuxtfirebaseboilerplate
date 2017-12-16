@@ -1,5 +1,7 @@
 # nuxtfire
 
+a nuxt boilerplate for firebase
+
 > Nuxt.js project
 
 ## Build Setup
