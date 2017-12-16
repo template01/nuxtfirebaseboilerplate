@@ -1,5 +1,6 @@
 <template>
 <div>
+  <login></login>
 
   <section v-if="users.length" class="container">
     <!-- {{users[0].firstname}} {{users[0].lastname}} {{users[0]['.key']}} -->
@@ -18,10 +19,12 @@
 import {
   db
 } from '@/services/fireinit.js'
-import Logo from '~/components/Logo.vue'
+import login from '~/components/login.vue'
 
 export default {
-  components: {},
+  components: {
+    login
+  },
   data() {
     return {
       users: {}
